@@ -4,6 +4,16 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { fetchAPI } from "../lib/api"
 
+/* 
+  TODO - ADD CLOUDINARY
+  TODO: Add Comment Section
+  TODO: Add subscribe to mailing list button
+  TODO: Add Search using Algolia
+  TODO: Add Push Notification
+  TODO: Update CSS with Tailwind
+  TODO: Deploy apps and DB to Netlify and Render 
+*/
+
 const Home = ({ articles, categories, homepage }) => {
   return (
     <Layout categories={categories}>
