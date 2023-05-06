@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 import { fetchAPI } from "../lib/api"
 
 /* 
-  TODO - ADD CLOUDINARY
+  DONE - ADD CLOUDINARY
   TODO: Add Comment Section
   TODO: Add subscribe to mailing list button
   TODO: Add Search using Algolia

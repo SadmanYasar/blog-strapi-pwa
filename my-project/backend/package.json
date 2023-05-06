@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@mattie-bundle/strapi-plugin-search": "^1.0.0-alpha.3",
+    "@mattie-bundle/strapi-provider-search-algolia": "^1.0.0-alpha.3",
     "@strapi/plugin-graphql": "^4.0.0",
     "@strapi/plugin-i18n": "4.10.1",
     "@strapi/plugin-users-permissions": "4.10.1",
