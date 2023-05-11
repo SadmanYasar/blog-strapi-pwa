@@ -8,7 +8,7 @@ import { fetchAPI } from "../lib/api"
   DONE - ADD CLOUDINARY
   TODO: Add Comment Section
   TODO: Add subscribe to mailing list button
-  TODO: Add Search using Algolia
+  DONE: Add Search using Algolia
   TODO: Add Push Notification
   TODO: Update CSS with Tailwind
   TODO: Deploy apps and DB to Netlify and Render 
