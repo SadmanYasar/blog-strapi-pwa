@@ -2,10 +2,10 @@
   "dependencies": {
     "@mattie-bundle/strapi-plugin-search": "^1.0.0-alpha.3",
     "@mattie-bundle/strapi-provider-search-algolia": "^1.0.0-alpha.3",
+    "@strapi-newsletter/strapi": "^0.1.2",
     "@strapi/plugin-graphql": "^4.0.0",
     "@strapi/plugin-i18n": "4.10.1",
     "@strapi/plugin-users-permissions": "4.10.1",
-    "@strapi/provider-email-sendgrid": "^4.10.2",
     "@strapi/provider-upload-cloudinary": "^4.10.2",
     "@strapi/strapi": "4.10.1",
     "better-sqlite3": "8.0.1",
