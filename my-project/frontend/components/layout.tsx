@@ -1,7 +1,14 @@
 import Mailchimp from "./mailchimp"
 import Nav from "./nav"
 
-const Layout = ({ children, categories, seo }) => (
+//convert the Layout component to typescript
+interface ILayoutProps {
+  children: React.ReactNode
+  categories: any
+  seo?: any
+}
+
+const Layout = ({ children, categories, seo } : ILayoutProps) => (
   <>
     <Nav categories={categories} />
     {children}

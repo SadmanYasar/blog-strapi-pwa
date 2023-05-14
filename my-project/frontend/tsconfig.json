@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "preserve",
+      "incremental": true,
+      "noImplicitAny": false,
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js", "public/workbox-327c579b.js", "public/sw.js", "public/fallback-development.js"],
+    "exclude": ["node_modules"]
+  }
