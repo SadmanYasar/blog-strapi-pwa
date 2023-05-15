@@ -15,7 +15,10 @@
     "@algolia/autocomplete-js": "^1.9.2",
     "@algolia/autocomplete-theme-classic": "^1.9.2",
     "algoliasearch": "^4.17.0",
+    "class-variance-authority": "^0.6.0",
+    "clsx": "^1.2.1",
     "install": "^0.13.0",
+    "lucide-react": "^0.216.0",
     "moment": "^2.24.0",
     "next": "^11.0.0",
     "next-pwa": "^5.6.0",
@@ -24,7 +27,9 @@
     "react-dom": "17.0.0",
     "react-mailchimp-form": "^1.0.2",
     "react-markdown": "^4.2.2",
-    "react-moment": "^0.9.6"
+    "react-moment": "^0.9.6",
+    "tailwind-merge": "^1.12.0",
+    "tailwindcss-animate": "^1.0.5"
   },
   "license": "MIT",
   "devDependencies": {
