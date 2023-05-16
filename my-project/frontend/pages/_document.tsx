@@ -61,10 +61,10 @@ class MyDocument extends Document {
           />
           <link rel="shortcut icon" href="/favicon.ico" />
           {/* eslint-disable-next-line */}
-          <link
+          {/* <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
-          />
+          /> */}
 
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:url" content="https://yourdomain.com" />
@@ -125,11 +125,11 @@ class MyDocument extends Document {
           /> */}
 
           {/* eslint-disable-next-line */}
-          <link
+          {/* <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Staatliches"
-          />
-          <link
+          /> */}
+          {/* <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/css/uikit.min.css"
           />
@@ -144,7 +144,7 @@ class MyDocument extends Document {
           <script
             async
             src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.js"
-          />
+          /> */}
         </Head>
         <body>
           <Main />

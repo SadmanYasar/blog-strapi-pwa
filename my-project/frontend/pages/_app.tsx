@@ -1,9 +1,18 @@
 import App from "next/app"
 import Head from "next/head"
-import "../assets/css/style.css"
+// import "../assets/css/style.css"
+import "../styles/globals.css"
 import { createContext } from "react"
 import { fetchAPI } from "../lib/api"
 import { getStrapiMedia } from "../lib/media"
+import dynamic from "next/dynamic"
+
+const Toaster = dynamic(
+  () => import("react-hot-toast").then((c) => c.Toaster),
+  {
+    ssr: false,
+  }
+)
 
 // Store Strapi Global object in context
 export const GlobalContext = createContext({})
@@ -13,6 +22,7 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <>
+      <Toaster position="top-center" reverseOrder={false} />
       <Head>
         <link
           rel="shortcut icon"

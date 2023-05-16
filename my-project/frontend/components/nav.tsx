@@ -8,8 +8,8 @@ import SearchItem from "./searchItem"
 import "@algolia/autocomplete-theme-classic"
 
 const searchClient = algoliasearch(
-  process.env.NEXT_PUBLIC_ALGOLIA_APP_ID,
-  process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_API_KEY
+  process.env.NEXT_PUBLIC_ALGOLIA_APP_ID as string,
+  process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_API_KEY as string
 )
 
 const Nav = ({ categories }) => {

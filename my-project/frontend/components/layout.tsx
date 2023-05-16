@@ -1,4 +1,4 @@
-import Mailchimp from "./mailchimp"
+import Mailchimp from "./footer/mailchimp"
 import Nav from "./nav"
 
 //convert the Layout component to typescript
@@ -8,16 +8,17 @@ interface ILayoutProps {
   seo?: any
 }
 
-const Layout = ({ children, categories, seo } : ILayoutProps) => (
+const Layout = ({ children, categories, seo }: ILayoutProps) => (
   <>
     <Nav categories={categories} />
     {children}
     <footer>
-      <div className="uk-section uk-section-secondary uk-light">
+      <Mailchimp />
+      {/* <div className="uk-section uk-section-secondary uk-light">
         <div className="uk-container">
           <Mailchimp />
         </div>
-      </div>
+      </div> */}
     </footer>
   </>
 )
